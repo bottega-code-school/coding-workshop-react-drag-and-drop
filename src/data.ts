@@ -5,6 +5,7 @@ export default [
     artist: "The Knack",
     released: "1979",
     thumb: require("../static/assets/playlist/sharona.jpg"),
+    position: 1,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export default [
     artist: "Michael Jackson",
     released: "1979",
     thumb: require("../static/assets/playlist/off-wall.jpg"),
+    position: 2,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export default [
     artist: "Simon & Garfunkel",
     released: "1970",
     thumb: require("../static/assets/playlist/bridge.png"),
+    position: 3,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export default [
     artist: "Fleetwood Mac",
     released: "1977",
     thumb: require("../static/assets/playlist/Go_Your_Own_Way_single.jpg"),
+    position: 4,
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export default [
     artist: "Olivia Newton-John, John Travolta",
     released: "1978",
     thumb: require("../static/assets/playlist/want.jpg"),
+    position: 5,
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export default [
     artist: "Lynyrd Skynyrd",
     released: "1973",
     thumb: require("../static/assets/playlist/freebird.jpg"),
+    position: 6,
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export default [
     artist: "ABBA",
     released: "1976",
     thumb: require("../static/assets/playlist/abba.png"),
+    position: 7,
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export default [
     artist: "Elton John",
     released: "1970",
     thumb: require("../static/assets/playlist/your-song.jpg"),
+    position: 8,
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ export default [
     artist: "Five Stairsteps",
     released: "1970",
     thumb: require("../static/assets/playlist/child.jpg"),
+    position: 9,
   },
   {
     id: 10,
@@ -68,5 +77,6 @@ export default [
     artist: "Lynyrd Skynyrd",
     released: "1974",
     thumb: require("../static/assets/playlist/alabama.jpg"),
+    position: 10,
   },
 ];
