@@ -32,13 +32,6 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
-    "@types/react": "16.9.0",
-    "@types/react-dom": "16.9.0",
-    "@types/react-router-dom": "4.3.5",
-    "@visx/gradient": "^1.7.0",
-    "@visx/group": "^1.7.0",
-    "@visx/hierarchy": "^1.7.0",
-    "@visx/shape": "^1.8.0",
     "ajv": "6.12.0",
     "autoprefixer": "^9.1.0",
     "axios": "0.21.1",
@@ -80,14 +73,17 @@
     "webpack-merge": "4.2.2"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "5.2.1",
+    "@types/react": "16.9.0",
+    "@types/react-dom": "16.9.0",
+    "@types/react-router-dom": "4.3.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "source-map-loader": "^0.2.4",
-    "typescript": "3.6.2",
+    "ts-loader": "^8.1.0",
+    "typescript": "4.2.3",
     "uglifyjs-webpack-plugin": "^1.2.7"
   }
 }
