@@ -27,7 +27,6 @@ export default function Playlist() {
           className="list-container__item"
           {...provided.draggableProps}
           ref={provided.innerRef}
-          key={item.id}
         >
           <a {...provided.dragHandleProps} className="handle">
             <VscThreeBars />
